@@ -1,3 +1,5 @@
+require "vagrant"
+
 module VagrantPlugins
   module Fabric
     class Config < Vagrant.plugin("2", :config)
